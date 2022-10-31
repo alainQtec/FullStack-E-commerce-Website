@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "live-server src --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "alainQtec",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "nodemon": "^2.0.20"
+  }
+}
