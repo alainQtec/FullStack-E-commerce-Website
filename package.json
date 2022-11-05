@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-e-commerce-website",
+  "description": "A full stack e-commerce site. (Good for Learning Node & MongoDB)",
+  "homepage": "https://github.com/alainQtec/FullStack-E-commerce-Website#readme",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm run start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "dev": "concurently \"npm run start\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alainQtec/FullStack-E-commerce-Website.git"
+  },
+  "keywords": ["node", "mongoDB"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alainQtec/FullStack-E-commerce-Website/issues"
+  },
+    "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {}
+}
